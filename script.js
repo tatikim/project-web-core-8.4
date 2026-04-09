@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Swiper только мобилка
+  //мобильный 
   if (window.innerWidth < 768) {
     new Swiper(".swiper", {
       slidesPerView: "auto",
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // TABLE (планшет)
+  // планшет
   const showBtn = document.getElementById("showBtn");
   const hideBtn = document.getElementById("hideBtn");
   const tableBlock = document.querySelector(".table__hide");
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // LAPTOP (>=1120)
+  // ноутбук
   const showBtn2 = document.getElementById("showBtn2");
   const hideBtn2 = document.getElementById("hideBtn2");
   const laptopBlock = document.querySelector(".laptop__hide");
